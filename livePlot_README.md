@@ -2,6 +2,9 @@
 
 This Python script connects to the Interactive Brokers (IB) trading platform and retrieves tick-by-tick market data for a specific futures contract. The script then plots the received data in real-time using Matplotlib.
 
+![image](https://github.com/jamiePDunne/ibTrading/assets/83908748/0beb358c-eee8-4c44-af2a-18668a357e44)
+
+
 ## Prerequisites
 
 To run this script, you need to have the following:
