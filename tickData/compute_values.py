@@ -3,7 +3,7 @@ import glob
 import pandas as pd
 import time
 
-DIRECTORY = "/home/jamie/ib_market_data"  # Directory for CSV files
+DIRECTORY = "ADD PATH"  # Directory for CSV files
 
 
 def get_most_recent_csv():
