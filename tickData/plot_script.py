@@ -7,7 +7,7 @@ import matplotlib.ticker as ticker
 
 
 def get_most_recent_csv():
-    files = glob.glob("/home/jamie/ib_market_data/computed_FDAX*.csv")
+    files = glob.glob("/ADD PATH/computed_FDAX*.csv")
     if files:
         return max(files, key=os.path.getctime)
     else:
