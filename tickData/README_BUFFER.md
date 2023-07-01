@@ -1,8 +1,20 @@
 **Readme File:**
 
-# Live Data using a ring buffer
+# Trading Data Analysis Scripts
 
 This repository contains three Python scripts for analyzing and visualizing trading data. These scripts are designed for users with minimal coding experience and are meant to be run in a specific order.
+
+## Summary
+
+The provided scripts utilize a ring buffer approach to efficiently handle and process real-time tick data from the Interactive Brokers API. This approach offers several benefits:
+
+- **Memory efficiency**: The ring buffer implementation allows for efficient memory utilization by limiting the number of tick data records stored at any given time. This is particularly useful when dealing with a continuous stream of real-time data, as it prevents excessive memory consumption.
+
+- **Real-time data handling**: The ring buffer acts as a temporary storage for tick data updates. It enables the scripts to process and analyze the most recent ticks efficiently without the need to store the entire dataset. This approach allows for real-time data analysis while minimizing latency.
+
+- **Seamless data flow**: The scripts, when executed in sequence, create a smooth data flow. The first script retrieves tick data and appends it to the ring buffer, while the subsequent scripts consume the data from the buffer for computation and visualization. This streamlined approach ensures a continuous and synchronized data pipeline.
+
+- **Modular and scalable**: The use of a ring buffer decouples the data retrieval, computation, and visualization processes. Each script focuses on a specific task and can be modified or extended independently. This modularity allows for easy customization and scalability as per the user's requirements.
 
 ## Prerequisites
 
@@ -18,6 +30,10 @@ You can install the necessary dependencies using pip:
 ```shell
 pip install ib_insync pandas matplotlib
 ```
+
+...
+
+[Continue with the rest of the readme file as previously provided.]
 
 ## Script 1: buffer_main_script.py
 
