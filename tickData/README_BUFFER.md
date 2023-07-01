@@ -1,6 +1,6 @@
 **Readme File:**
 
-# Trading Data Analysis Scripts
+# Live Data using a ring buffer
 
 This repository contains three Python scripts for analyzing and visualizing trading data. These scripts are designed for users with minimal coding experience and are meant to be run in a specific order.
 
