@@ -19,6 +19,10 @@ This GitHub repository contains various scripts for working with Interactive Dat
    pip install ib_insync
    ```
 
+## README files
+Each script has its own README file, please refer to it
+
+
 ## Usage
 
 To use these scripts, follow the steps below:
