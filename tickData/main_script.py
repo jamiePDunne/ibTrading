@@ -15,7 +15,7 @@ async def receive_ticks(ib, contract, ring_buffer, interval):
 
 
 async def save_tick_data(ring_buffer):
-    directory = '/home/jamie/ib_market_data'  # Specify the desired directory path
+    directory = 'ADD PATH'  # Specify the desired directory path
     file_name = os.path.join(directory, f"FDAX_{datetime.now().strftime('%Y%m%d')}.csv")
     fieldnames = ['Timestamp', 'Last', 'Last Size', 'Bid', 'Ask']
 
